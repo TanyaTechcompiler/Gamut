@@ -1,12 +1,10 @@
 <script>
 	export let name;
-	import Comp from './component1.svelte';
+	import Adv from './components/advertisers.svelte';
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	<Comp />
+	<Adv />
 </main>
 
 <style>
